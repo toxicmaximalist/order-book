@@ -2,15 +2,14 @@
 name = "orderbook-rs"
 version = "0.1.2"
 edition = "2024"
-authors = ["Joaquin Bejar <jb@taunais.com>"]
+authors = ["Joaquin Bejar <jb@taunais.com>", "toxicmaximalist"]
 description = "A high-performance, lock-free price level implementation for limit order books in Rust. This library provides the building blocks for creating efficient trading systems with support for multiple order types and concurrent access patterns."
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/joaquinbejar/OrderBook-rs"
-homepage = "https://github.com/joaquinbejar/OrderBook-rs"
+repository = "https://github.com/toxicmaximalist/order-book"
+homepage = "https://github.com/toxicmaximalist/order-book"
 keywords = ["finance", "orderbook", "trading"]
 categories = ["finance", "data-structures"]
-
 
 include = [
     "benches/**/*",
